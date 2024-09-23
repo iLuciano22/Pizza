@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+
+body {
+    background-color:rgb(210, 121, 245)
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-container h1 {
+    font-size: 28px;
+    background: linear-gradient(rgb(174, 0, 255), black);
+    color: transparent;
+    background-clip: text;
+
+}
+
+
+.input-container input{
+    padding: 8px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.add-btn {
+    padding: 10px;
+    background-color:rgb(238, 235, 84);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+}
+
+#container-pizzas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.product-card  h2{
+    background: linear-gradient(blue, black);
+    color: transparent;
+    background-clip: text;
+}
+
+.product-card p{
+    font-weight: 600;
+    font-size: 16px;
+    color: tomato;;
+}
+
+
+h3 {
+    color: red;
+}
